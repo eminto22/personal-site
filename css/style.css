@@ -1,0 +1,69 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: all 0.4s ease;
+    display: flex; /* Will be hidden on mobile */
+    flex-direction: column;
+    grid-area: sidenav;
+}
+
+.sidenav a {
+    padding: 7px 19px 16px 18px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    font-family: 'Courier New';
+}
+
+.sidenav a:hover {
+    color: f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: #818181;
+}
+
+.hamburgerButton {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    
+}
+
+button.menuButton {
+    box-sizing: none;
+    background-color: none;
+    z-index: 1;
+}
+
+.resume {
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 20px;
+    vertical-align: center;
+    transition: all 0.4s ease;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #111;
+    color: white;
+    font-size: 15px;
+    z-index: 0;
+}
+  
