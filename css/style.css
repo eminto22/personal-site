@@ -67,3 +67,26 @@ button.menuButton {
     z-index: 0;
 }
   
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+  /* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    vertical-align: middle;
+    width: 50%;
+    margin-left: 300px ;
+    margin-right: auto ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    image-orientation: initial;
+    transition: all 0.4s ease;
+}
