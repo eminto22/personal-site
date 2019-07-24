@@ -1,5 +1,5 @@
 document.write(`
-    <div class="header">
-        <p>Welcome</p>
+    <div class="header" style="margin: 20px;">
+        <p></p>
     </div>
 `)
