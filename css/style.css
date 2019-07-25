@@ -24,13 +24,13 @@
 }
 
 .sidenav a:hover {
-    color: f1f1f1;
+    color: lightgray;
 }
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 35px;
+    top: 30px;
+    right: 25px;
     font-size: 20px;
     margin-left: 50px;
     color: #818181;
@@ -39,54 +39,120 @@
 .hamburgerButton {
     width: 25px;
     height: 3px;
-    background-color: black;
+    background-color: white;
     margin: 6px 0;
-    
 }
 
 button.menuButton {
     box-sizing: none;
-    background-color: none;
+    background-color: black;
     z-index: 1;
+    left: 40px;
+    position: absolute;
+    top: 50px;
 }
 
 .resume {
     margin-left: auto ;
     margin-right: auto ;
-    padding: 40px;
     vertical-align: center;
     transition: all 0.4s ease;
 }
 
 .header {
-    padding: 30px;
-    text-align: center;
+    text-align: left;
     background: #111;
     color: white;
+    font-size: 30px;
+    z-index: 0;
+    position: relative;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    text-align: center;
+    background:lightgray;
+    color: black;
     font-size: 15px;
     z-index: 0;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top: 50px;
 }
   
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    padding: 0 0 0 200px;
 }
   
   /* Create two equal columns that sits next to each other */
 .column {
     flex: 50%;
-    padding: 0 4px;
+    position: relative;
 }
   
 .column img {
     vertical-align: middle;
-    width: 50%;
-    margin-left: 300px ;
-    margin-right: auto ;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    image-orientation: initial;
+    width: 90%;
     transition: all 0.4s ease;
+    position: relative;
+    padding: 50px 0 50px 0;
+}
+
+#firstCol {
+    padding: 0 0 0 100px;
+}
+
+#secondCol {
+    padding: 0 100px 0 50px;
+}
+
+#portfolioBio {
+    left: 300px;
+    position: relative;
+    top: 40px;
+    padding: 20px;
+}
+
+#title {
+    position: absolute;
+    top: 35px;
+    left: 300px;
+    font-size: 50px;
+}
+
+#social {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    z-index: 2;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+
+.fa-facebook {
+    background:none;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: none;
+    color: white;
+}
+  
+.fa-instagram {
+    background: none;
+    color: white;
 }
