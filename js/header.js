@@ -11,9 +11,9 @@ document.write(`
             Elise Minto
         </span>
         <span id="social">
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/elise-minto/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.instagram.com/e.minto22/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.facebook.com/elise.minto" class="fa fa-facebook" target="_blank"></a>
         </span>
     </div>
 `)
