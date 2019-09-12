@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/script.js"></script>
+    <title>Resume</title>
+    <script type="text/javascript" src="../js/sidenav.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+</head>
+
+<div id="nav-placeholder"></div>
+<div id="header-placeholder"></div>
+
+<script>
+$(function(){
+    $("#nav-placeholder").load("sidenav.html");
+});
+</script>
+<script>
+$(function(){
+    $("#header-placeholder").load("header.html");
+});
+</script>
+
+<div id="resume" style="display:table; margin-left:auto; margin-right:auto;">
+    <embed class="resume" src='../images/Cover_and_Resume.pdf' width="800px" height="2100px"></embed>
+</div>
