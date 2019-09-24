@@ -36,6 +36,10 @@
     color: #818181;
 }
 
+.img-circle {
+    right: 5px;
+}
+
 .hamburgerButton {
     width: 25px;
     height: 3px;
