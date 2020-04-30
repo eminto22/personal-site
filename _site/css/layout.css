@@ -413,6 +413,7 @@ ul#nav li.current a { color: #ab7c68; }
    background: #ebdfda;
    padding-top: 90px;
    padding-bottom: 60px;
+   position: relative;
 }
 #blog h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
