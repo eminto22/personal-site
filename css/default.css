@@ -490,6 +490,7 @@ input[type="button"] {
 #blog-button {
    position: absolute;
    right: 40px;
+   bottom: 7px;
 }
 
 .button:hover,
