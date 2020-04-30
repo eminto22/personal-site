@@ -474,8 +474,6 @@ input[type="button"] {
    border: none;
    cursor: pointer;
    height: auto;
-   position: absolute;
-   right: 40px;
 
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -487,6 +485,11 @@ input[type="button"] {
    -webkit-border-radius: 3px;
    -khtml-border-radius: 3px;
    border-radius: 3px;
+}
+
+#blog-button {
+   position: absolute;
+   right: 40px;
 }
 
 .button:hover,
