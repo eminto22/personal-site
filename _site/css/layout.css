@@ -39,6 +39,10 @@ header {
    overflow: hidden;
 }
 
+header #construction{
+   color: white;
+}
+
 /* vertically center banner section */
 header:before {
    content: '';
