@@ -1,0 +1,18 @@
+# Site settings
+title: 
+email: 
+description: > # This means to ignore all newlines until baseline url
+
+baseurl: 
+url:
+twitter_username:
+github_username:
+
+# Build Settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude: 
+  - Gemfile
+  - Gemfile.lock

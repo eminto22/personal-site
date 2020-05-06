@@ -27,12 +27,14 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+
+/* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
 header {
    position: relative;
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -154,6 +156,7 @@ ul#nav {
 
    /* center align the menu */
    text-align: center;
+   background: black;
 }
 ul#nav li {
    position: relative;
@@ -1034,5 +1037,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #de813e; }
 
