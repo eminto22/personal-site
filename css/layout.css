@@ -27,6 +27,9 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+.blog-header{
+   background: #838c95;
+}
 
 header {
    position: relative;
