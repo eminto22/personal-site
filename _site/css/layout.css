@@ -23,12 +23,17 @@
 
 body { background: #0f0f0f; }
 
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
 .blog-header{
-   background: #838c95;
+   background: #333 ;
+}
+
+#curr-blog {
+   color: #ab7c68;
 }
 
 header {
@@ -416,6 +421,13 @@ ul#nav li.current a { color: #ab7c68; }
 /* ------------------------------------------------------------------ */
 /* e. Blog Section
 /* ------------------------------------------------------------------ */
+
+#blog-body {
+   background: white;
+   padding-top: 90px;
+   padding-bottom: 60px;
+   position: relative;
+}
 
 #blog {
    background: #ebdfda;

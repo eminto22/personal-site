@@ -1,8 +1,31 @@
 <!doctype html>
 <html>
   <head>
+    <!--- Basic Page Needs
+    ================================================== -->
     <meta charset="utf-8">
-    <title>Blog</title>
+    <title>Elise Minto - Blog</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+ 
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 
+    <!-- CSS
+     ================================================== -->
+    <link rel="stylesheet" href="../../../css/default.css">
+    <link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/media-queries.css">
+    <link rel="stylesheet" href="../../../css/magnific-popup.css">
+ 
+    <!-- Script
+    ================================================== -->
+    <script src=".../../../js/modernizr.js"></script>
+ 
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../../../favicon.png" >
   </head>
   <body>
     <!DOCTYPE html>
@@ -24,18 +47,18 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="../css/default.css">
-	<link rel="stylesheet" href="../css/layout.css">
-   <link rel="stylesheet" href="../css/media-queries.css">
-   <link rel="stylesheet" href="../css/magnific-popup.css">
+   <link rel="stylesheet" href="../../../css/default.css">
+	<link rel="stylesheet" href="../../../css/layout.css">
+   <link rel="stylesheet" href="../../../css/media-queries.css">
+   <link rel="stylesheet" href="../../../css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<script src="../js/modernizr.js"></script>
+	<script src="../../../js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="../favicon.png" >
+	<link rel="shortcut icon" href="../../../favicon.png" >
 
 </head>
 
@@ -43,17 +66,17 @@
 
    <!-- Header
    ================================================== -->
-   <div class="blog-header" id="home">
+   <div id="home">
       <nav id="nav-wrap">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
          <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" class="nav">
+         <ul id="nav" class="nav blog-header">
             <li><a href="https://eliseminto.com/#home">Home</a></li>
             <li><a href="https://eliseminto.com/#about">About</a></li>
             <li><a href="https://eliseminto.com/#resume">Resume</a></li>
-            <li class="current"><a href="">Blog</a></li>
+            <li id="curr-blog" class="current"><a href="../../../html/blog.html">Blog</a></li>
             <li><a href="https://eliseminto.com/#portfolio">Works</a></li>
             <li><a href="https://eliseminto.com/#contact">Contact</a></li>
          </ul> <!-- end #nav -->
@@ -61,26 +84,71 @@
       </nav> <!-- end #nav-wrap -->
    </div>
 
-   <!-- blog posts
+
+   <!-- Java Script
    ================================================== -->
-   <section id="blog">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../../../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../../../js/jquery-migrate-1.2.1.min.js"></script>
 
-      <div class="row">
-         <h1>Latest Posts</h1>
+   <script src="../../../js/jquery.flexslider.js"></script>
+   <script src="../../../js/waypoints.js"></script>
+   <script src="../../../js/jquery.fittext.js"></script>
+   <script src="../../../js/magnific-popup.js"></script>
+   <script src="../../../js/init.js"></script>
+</body>
+    <section id="blog-body">
 
-         <ul>
-         
-            <li>
-               <h2><a href="/2020/05/05/welcome-to-my-blog.html">Welcome to My Blog</a></h2>
-               <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+   <div class="row">
+      <h1>Latest Posts</h1><br>
 
+      <ul>
+      
+         <li>
+            <h2><a href="/2020/05/05/welcome-to-my-blog.html">Welcome to My Blog</a></h2>
+            <h4>5 May 2020</h4>
+            <p>Hi, my name is Elise Minto and as I’m sure you’ve already read, I’m a recent graduate of the University of Michigan. This website is a way for me to highlight my skills in programming and learn new tools while getting the chance to start a blog, which has always been in the back of my mind. It is a work in progress but I’m excited to see what I can turn it into. Thanks for visiting.</p>
 
-            </li>
-         
-         </ul>
-      </div>
-   </section>
+         </li>
+      
+      </ul>
+   </div>
+</section>
+    <!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Elise Minto - Blog</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="../../../css/default.css">
+	<link rel="stylesheet" href="../../../css/layout.css">
+   <link rel="stylesheet" href="../../../css/media-queries.css">
+   <link rel="stylesheet" href="../../../css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="../../../js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="../../../favicon.png" >
+
+</head>
+
+<body>
    <!-- footer
    ================================================== -->
    <footer>
@@ -113,14 +181,26 @@
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../../../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../../../js/jquery-migrate-1.2.1.min.js"></script>
 
-   <script src="../js/jquery.flexslider.js"></script>
-   <script src="../js/waypoints.js"></script>
-   <script src="../js/jquery.fittext.js"></script>
-   <script src="../js/magnific-popup.js"></script>
-   <script src="../js/init.js"></script>
+   <script src="../../../js/jquery.flexslider.js"></script>
+   <script src="../../../js/waypoints.js"></script>
+   <script src="../../../js/jquery.fittext.js"></script>
+   <script src="../../../js/magnific-popup.js"></script>
+   <script src="../../../js/init.js"></script>
 </body>
+
+    <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../../../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../../../js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="../../../js/jquery.flexslider.js"></script>
+   <script src="../../../js/waypoints.js"></script>
+   <script src="../../../js/jquery.fittext.js"></script>
+   <script src="../../../js/magnific-popup.js"></script>
+   <script src="../../../js/init.js"></script>
   </body>
 </html>

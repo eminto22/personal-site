@@ -493,6 +493,12 @@ input[type="button"] {
    bottom: 7px;
 }
 
+#post-button {
+   position: absolute;
+   left: 20px;
+   top: 60px;
+}
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,

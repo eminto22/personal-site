@@ -3,118 +3,19 @@ layout: default
 title: Blog
 ---
 
-<!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
+<section id="blog-body">
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Elise Minto - Blog</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+   <div class="row">
+      <h1>Latest Posts</h1><br>
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="../css/default.css">
-	<link rel="stylesheet" href="../css/layout.css">
-   <link rel="stylesheet" href="../css/media-queries.css">
-   <link rel="stylesheet" href="../css/magnific-popup.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="../js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="../favicon.png" >
-
-</head>
-
-<body>
-
-   <!-- Header
-   ================================================== -->
-   <div class="blog-header" id="home">
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li><a href="https://eliseminto.com/#home">Home</a></li>
-            <li><a href="https://eliseminto.com/#about">About</a></li>
-            <li><a href="https://eliseminto.com/#resume">Resume</a></li>
-            <li class="current"><a href="">Blog</a></li>
-            <li><a href="https://eliseminto.com/#portfolio">Works</a></li>
-            <li><a href="https://eliseminto.com/#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
+      <ul>
+      {% for post in site.posts %}
+         <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h4>{{ post.date | date: "%-d %B %Y" }}</h4>
+            {{ post.excerpt }}
+         </li>
+      {% endfor %}
+      </ul>
    </div>
-
-   <!-- blog posts
-   ================================================== -->
-   <section id="blog">
-
-      <div class="row">
-         <h1>Latest Posts</h1>
-
-         <ul>
-         {% for post in site.posts %}
-            <li>
-               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-               {{ post.excerpt }}
-            </li>
-         {% endfor %}
-         </ul>
-      </div>
-   </section>
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://www.facebook.com/elise.minto"><i class="fa fa-facebook"></i></a></li>
-               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-               <li><a href="https://www.linkedin.com/in/elise-minto/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/e.minto22/"><i class="fa fa-instagram"></i></a></li>
-               <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-            </ul>
-
-         </div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="../js/jquery.flexslider.js"></script>
-   <script src="../js/waypoints.js"></script>
-   <script src="../js/jquery.fittext.js"></script>
-   <script src="../js/magnific-popup.js"></script>
-   <script src="../js/init.js"></script>
-</body>
+</section>
