@@ -593,6 +593,14 @@ ul#nav li.current a { color: #ab7c68; }
    color: #95A3A3;
 }
 
+#portfolio h2 {
+   font: 12px/20px 'opensans-semibold', sans-serif;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: rgb(141, 132, 114);
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
